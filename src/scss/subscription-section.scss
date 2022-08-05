@@ -1,0 +1,210 @@
+.subscription-section {
+    padding-top: 15.4rem;
+    padding-bottom: 100px;
+    .flashlight {
+        left: 50%;
+        top: 100%;
+
+        &--green {
+            background-color: var(--green);
+            box-shadow: 0 0 80px 70px var(--green); 
+            filter: blur(67px);
+            opacity: .3;
+        }
+
+        &--blue {
+            background-color: var(--blue);
+            box-shadow: 0 0 80px 70px var(--blue);
+            filter: blur(67px);
+            opacity: .3;
+        }
+    }
+    .panel{
+        margin-top: 50px;
+    }
+}
+.mobil-version{
+    display: none;
+}
+.subscription-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+ 
+    .section-title {
+        font-size: 4rem;
+        line-height: 900;
+        line-height: 1;
+        margin-bottom: 5px;
+        max-width: 550px;
+    }
+
+    .under-section-title {
+        font-size: 1.8rem;
+        line-height: 1.5;
+        font-weight: 500;
+        max-width: 550px;
+    }
+
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        .glowing-text {
+            margin-bottom: 1.9rem;
+        }
+        th {
+            position: relative;
+            font-size: 2.4rem;
+            line-height: 1.25;
+            font-weight: 800;
+            padding: 20px 5px;
+            background-color: var(--bg-color); 
+            border-style: solid;
+            border-width: 0 1px 0 0;
+            border-color: #393B48; 
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left:0;
+                width: 100%;
+                height: 1px;
+                background-color: #393B48;
+            }
+        }
+
+        th:first-child {
+            padding-top: 0; 
+        } 
+    } 
+    td,
+    th {
+        width: 24.28%; 
+        vertical-align: middle;
+        box-sizing: border-box;
+        padding: 10px 5px; 
+    }
+
+    td {
+        font-size: 1.6rem;
+        line-height: 1.23;
+        font-weight: 500;
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        border-color: #393B48;
+    }
+    th:first-child,
+    td:first-child {
+        width: 51.44%;
+        text-align: left;
+        padding-right: 20px ; 
+        padding-left: 0;
+    }
+    td:first-child {
+        font-size: 1.6rem;
+        line-height: 1.18;
+        font-weight: 400; 
+    }
+    td.no-border-bottom{
+        border-bottom: 0;
+    }
+}
+
+
+.glowing-text {
+    position: relative;
+    display: block;
+
+    &--simbol {
+        font-size: 3.8rem;
+        line-height: 28px;
+    }
+
+    &--blue {
+        color: var(--blue);
+    }
+
+    &--green {
+        color: var(--green);
+    }
+
+    &--red {
+        color: var(--red);
+    }
+} 
+
+.mobil-version{
+    .under-section-title{
+        margin-bottom: 47px;
+    }
+}
+
+.subscription{
+    .subscription__item{
+ 
+    }
+
+}
+.subscription-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.23;
+    font-weight: 700;
+    border-bottom: 1px solid #444557;
+    &.sticky{
+        background-color: var(--bg-color);
+        z-index: 3;
+    }
+    &:first-child{
+        .glowing-text,
+        .subscription-price{
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.25; 
+        } 
+        .subscription-price{
+            margin-bottom: 26px;
+        }
+    }
+    .glowing-text--simbol {
+        font-size: 38px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    
+    .subscription-item__caption{
+        display: block;
+        margin-bottom: 16px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.2;
+        font-weight: 400;
+    }
+    .left-col{
+        width: 50%;
+    }
+    .right-col{
+        width: 50%;
+    }
+    .left-col,
+    .right-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        // min-height: 38px;
+    }
+}
+.subscription-h3{
+    margin-top: 18px;
+    margin-bottom: 7px;
+    font-size: 15px;
+    line-height: 1.23;
+    font-weight: 700;
+}

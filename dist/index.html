@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head> 
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>KeyStack</title> 
+
+	<!--   Cascading Style Sheets-->
+	<!-- <link rel="stylesheet" href="css/style.css">  -->
+	<link rel="stylesheet" href="css/style.min.css?ver1">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="inner">
+			<a href="#" class="logo">
+				<img src="img/logo.svg" alt="KeyStack">
+			</a>
+			<div class="nav-box">
+				<button class="btn__cross"></button>
+				<nav>
+					<ul class="main-menu">
+						<li><a href="#product" class="anchor">О продукте</a></li>
+						<li><a href="#features" class="anchor">Особенности</a></li>
+						<li><a href="#advantages" class="anchor">Преимущества</a></li>
+						<li><a href="#training" class="anchor">Обучение и поддержка</a></li>
+						<li><a href="#subscription" class="anchor">Прайс</a></li>
+						<!-- <li><a href="#">Клиенты</a></li> -->
+					</ul>
+				</nav>
+				<a href="#footer" class="btn btn--bg-red btn--border-red btn__contact-me anchor">Свяжитесь со мной</a>
+			</div>
+			<div class="header__btn-box">
+				<button class="btn btn-lang">Ru</button>
+				<a href="#footer" class="btn btn--bg-red btn--border-red btn__contact-me anchor">Свяжитесь со мной</a>
+				<button class="btn btn--border-red btn__open-menu">
+					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12.6663 2H10.6663C9.92996 2 9.33301 2.59695 9.33301 3.33333V5.33333C9.33301 6.06971 9.92996 6.66667 10.6663 6.66667H12.6663C13.4027 6.66667 13.9997 6.06971 13.9997 5.33333V3.33333C13.9997 2.59695 13.4027 2 12.6663 2Z"
+							stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M5.33333 2H3.33333C2.59695 2 2 2.59695 2 3.33333V5.33333C2 6.06971 2.59695 6.66667 3.33333 6.66667H5.33333C6.06971 6.66667 6.66667 6.06971 6.66667 5.33333V3.33333C6.66667 2.59695 6.06971 2 5.33333 2Z"
+							stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M12.6663 9.33301H10.6663C9.92996 9.33301 9.33301 9.92996 9.33301 10.6663V12.6663C9.33301 13.4027 9.92996 13.9997 10.6663 13.9997H12.6663C13.4027 13.9997 13.9997 13.4027 13.9997 12.6663V10.6663C13.9997 9.92996 13.4027 9.33301 12.6663 9.33301Z"
+							stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M5.33333 9.33301H3.33333C2.59695 9.33301 2 9.92996 2 10.6663V12.6663C2 13.4027 2.59695 13.9997 3.33333 13.9997H5.33333C6.06971 13.9997 6.66667 13.4027 6.66667 12.6663V10.6663C6.66667 9.92996 6.06971 9.33301 5.33333 9.33301Z"
+							stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					Меню
+				</button>
+			</div>
+			<div class="decor-line"></div>
+		</div>
+	</header>
+	<main>
+		<section class="hall-section">
+			<div class="flashlight flashlight--red"></div>
+			<div class="flashlight flashlight--blue"></div>
+			<div class="decor-container">
+				<div class="stack-decor"></div>
+			</div>
+			<div class="inner">
+				<div class="hall__content">
+					<h1 class="page-title">Дистрибутив облачной платформы основанный на OpenStack</h1>
+					<span class="under-page-title">Поставляется по подписке, в рамках которой, помимо дистрибутива
+						облачной платформы вы получите:</span>
+					<div class="subscription-service">
+						<div class="subscription-service__item subscription-service__item--one">
+							Доступ к сертифицированному ПО для использования с оборудованием и ПО сторонних
+							производителей
+						</div>
+						<div class="subscription-service__item subscription-service__item--two">
+							Доступ к обновлениям и новым версиям программного обеспечения через репозитории ITKey
+						</div>
+						<div class="subscription-service__item subscription-service__item--three">
+							Техническая поддержка по телефону и/или через Интернет при наличии подписок соответствующего
+							уровня"
+						</div>
+					</div>
+					<div class="hall-box">
+						<a href="#" class="btn btn--bg-red btn--border-red btn-show-price">Посмотреть прайс</a>
+						<a href="#" class="btn btn--border-red btn-presentation">
+							<svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.99674 12.8964V10.7822" stroke="#F02B4F" stroke-width="1.5"
+									stroke-linecap="round" stroke-linejoin="round" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M14.1587 3.44141C15.567 3.44141 16.7003 4.58307 16.7003 5.99141V8.85807C14.6503 10.0581 11.942 10.7831 8.99199 10.7831C6.04199 10.7831 3.34199 10.0581 1.29199 8.85807V5.98307C1.29199 4.57474 2.43366 3.44141 3.84199 3.44141H14.1587Z"
+									stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path
+									d="M11.9134 3.43768V3.13268C11.9134 2.11602 11.0884 1.29102 10.0717 1.29102H7.92174C6.90508 1.29102 6.08008 2.11602 6.08008 3.13268V3.43768"
+									stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path
+									d="M1.3125 11.9023L1.47 13.9932C1.57667 15.4023 2.75083 16.4915 4.16333 16.4915H13.8292C15.2417 16.4915 16.4158 15.4023 16.5225 13.9932L16.68 11.9023"
+									stroke="#F02B4F" stroke-width="1.5" stroke-linecap="round"
+									stroke-linejoin="round" />
+							</svg>
+							Презентация
+						</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- Если вместо бегущей строки понадобится слайдер, то раскоментировать этот код и убрать бегущую строку, а
+			так же раскомментировать код инициализации слайдера в script.js. Искать по #technoslider -->
+			<!-- <div class="swiper technology-line"> 
+				<div class="swiper-wrapper "> 
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/chef.svg" alt="chef"></div>
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/docker.svg" alt="docker"></div>
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/hadoop.svg" alt="hadoop"></div> 
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/jenkins.svg" alt="jenkins"></div> 
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/mongoDB.svg" alt="mongoDB"></div> 
+					<div class="swiper-slide technology-line__item"><img src="/image/technology/cassandra.svg" alt="cassandra"></div>  
+				</div> 
+			</div>  -->
+			<div class="technology-line">
+				<div class="technology-line__item">
+					<img src="image/technology/chef.svg" alt="chef">
+					<img src="image/technology/docker.svg" alt="docker">
+					<img src="image/technology/hadoop.svg" alt="hadoop">
+					<img src="image/technology/jenkins.svg" alt="jenkins">
+					<img src="image/technology/mongoDB.svg" alt="mongoDB">
+					<img src="image/technology/cassandra.svg" alt="cassandra">
+				</div>
+				<div class="technology-line__item">
+					<img src="image/technology/chef.svg" alt="chef">
+					<img src="image/technology/docker.svg" alt="docker">
+					<img src="image/technology/hadoop.svg" alt="hadoop">
+					<img src="image/technology/jenkins.svg" alt="jenkins">
+					<img src="image/technology/mongoDB.svg" alt="mongoDB">
+					<img src="image/technology/cassandra.svg" alt="cassandra">
+				</div>
+				<div class="technology-line__item">
+					<img src="image/technology/chef.svg" alt="chef">
+					<img src="image/technology/docker.svg" alt="docker">
+					<img src="image/technology/hadoop.svg" alt="hadoop">
+					<img src="image/technology/jenkins.svg" alt="jenkins">
+					<img src="image/technology/mongoDB.svg" alt="mongoDB">
+					<img src="image/technology/cassandra.svg" alt="cassandra">
+				</div>
+			</div>
+		</section>
+		<section class="product-section" id="product">
+			<div class="inner">
+				<h2 class="section-title" >О продукте</h2>
+				<span class="under-section-title">
+					KeyStack - дистрибутив облачной платформы от компании ITKey, основанный на OpenStack. Базируется на следующих основных компонентах:
+				</span>
+				
+				<div class="component-grid">
+					<div class="row">
+						<div class="component-grid__item-wr">
+							<div class="component-grid__item component-grid-item">
+								<h3 class="component-grid-item__caption">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M3 16.5L12 21.75L21 16.5" stroke="#00C2FF" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M3 12L12 17.25L21 12" stroke="#00C2FF" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M3 7.5L12 12.75L21 7.5L12 2.25L3 7.5Z" stroke="#00C2FF"
+											stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									Multi-site облако
+								</h3>  
+								<p>
+									Отказоустойчивая облачная платформа, размещенная в нескольких ЦОД с общей сетевой связностью
+								</p>
+							</div>
+						</div>
+						<div class="component-grid__item-wr">
+							<div class="component-grid__item component-grid-item">
+								<h3 class="component-grid-item__caption">
+									<svg width="24" height="12" viewBox="0 0 24 12" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M9.99347 8.25977L9.17785 9.17852C8.54951 9.80576 7.74935 10.2327 6.87846 10.4053C6.00758 10.5779 5.10507 10.4886 4.28497 10.1484C3.46488 9.80832 2.764 9.23274 2.27091 8.49444C1.77782 7.75613 1.51465 6.88822 1.51465 6.00039C1.51465 5.11257 1.77782 4.24466 2.27091 3.50635C2.764 2.76804 3.46488 2.19246 4.28497 1.85235C5.10507 1.51223 6.00758 1.42284 6.87846 1.59548C7.74935 1.76812 8.54951 2.19503 9.17785 2.82227L14.8216 9.17852C15.4499 9.80576 16.2501 10.2327 17.121 10.4053C17.9919 10.5779 18.8944 10.4886 19.7145 10.1484C20.5346 9.80832 21.2354 9.23274 21.7285 8.49444C22.2216 7.75613 22.4848 6.88822 22.4848 6.00039C22.4848 5.11257 22.2216 4.24466 21.7285 3.50635C21.2354 2.76804 20.5346 2.19246 19.7145 1.85235C18.8944 1.51223 17.9919 1.42284 17.121 1.59548C16.2501 1.76812 15.4499 2.19503 14.8216 2.82227L14.006 3.74102"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+									CI/CD конвеер
+								</h3>
+								<p>KeyStack основан на CI-конвеере (применяется для деплоя инсталляции). Это позволяет использовать KeyStack в цепочке CI/CD конвеера клиента</p>
+							</div>
+						</div>
+
+						<div class="component-grid__item-wr">
+							<div class="component-grid__item component-grid-item">
+								<h3 class="component-grid-item__caption">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.5 12C7.5 10.5166 7.93987 9.0666 8.76398 7.83323C9.58809 6.59986 10.7594 5.63856 12.1299 5.07091C13.5003 4.50325 15.0083 4.35472 16.4632 4.64411C17.918 4.9335 19.2544 5.64781 20.3033 6.6967C21.3522 7.7456 22.0665 9.08197 22.3559 10.5368C22.6453 11.9917 22.4968 13.4997 21.9291 14.8701C21.3614 16.2406 20.4001 17.4119 19.1668 18.236C17.9334 19.0601 16.4834 19.5 15 19.5H6.75C5.35761 19.5 4.02226 18.9469 3.03769 17.9623C2.05312 16.9777 1.5 15.6424 1.5 14.25C1.5 12.8576 2.05312 11.5223 3.03769 10.5377C4.02226 9.55313 5.35761 9 6.75 9C7.18925 8.99984 7.62687 9.05336 8.05313 9.15938"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M18 10.875L13.5 15.375L11.25 13.125" stroke="#00C2FF" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									Публичное облако
+								</h3>
+								<p>KeyStack полностью подходит в качестве платформы для создания публичного облака.</p>
+							</div>
+						</div>
+						<div class="component-grid__item-wr">
+							<div class="component-grid__item component-grid-item">
+								<h3 class="component-grid-item__caption">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M9 19.5H6.75C5.35761 19.5 4.02226 18.9469 3.03769 17.9623C2.05312 16.9777 1.5 15.6424 1.5 14.25C1.5 12.8576 2.05312 11.5223 3.03769 10.5377C4.02226 9.55312 5.35761 9 6.75 9C7.18925 8.99984 7.62687 9.05336 8.05313 9.15938"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path
+											d="M7.5 12C7.5 10.8116 7.7824 9.64023 8.32393 8.5824C8.86545 7.52456 9.6506 6.61055 10.6147 5.91568C11.5787 5.22082 12.6941 4.765 13.8689 4.58578C15.0437 4.40656 16.2443 4.50907 17.3717 4.88488C18.4991 5.26068 19.5211 5.89901 20.3534 6.74726C21.1857 7.59552 21.8045 8.62941 22.1589 9.76374C22.5132 10.8981 22.5929 12.1004 22.3914 13.2716C22.1899 14.4427 21.713 15.5493 21 16.5"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M11.0723 15.1781L14.2504 12L17.4285 15.1781" stroke="#00C2FF"
+											stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M14.25 19.5V12" stroke="#00C2FF" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									Частное облако
+								</h3>
+								<p>KeyStack архитектурно и функционально отлично подходит для создания частного облака</p>
+							</div>
+						</div>
+						<div class="component-grid__item-wr">
+							<div class="component-grid__item component-grid-item">
+								<h3 class="component-grid-item__caption">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 12C16.5563 12 20.25 9.98528 20.25 7.5C20.25 5.01472 16.5563 3 12 3C7.44365 3 3.75 5.01472 3.75 7.5C3.75 9.98528 7.44365 12 12 12Z"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path
+											d="M3.75 7.5V12C3.75 14.4844 7.44375 16.5 12 16.5C16.5562 16.5 20.25 14.4844 20.25 12V7.5"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path
+											d="M3.75 12V16.5C3.75 18.9844 7.44375 21 12 21C16.5562 21 20.25 18.9844 20.25 16.5V12"
+											stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+									Предоставление S3
+								</h3>
+								<p>В состав KeyStack включен CEPH с возможностью организовать S3 с неограниченной масштабируемостью</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-section" id="features">
+			<div class="flashlight flashlight--purple flashlight--top"></div>
+			<div class="flashlight flashlight--purple flashlight--bottom"></div>
+			<div class="inner">
+				<h2 class="section-title alCenter" >Особенности KeyStack</h2>  
+				<span class="under-section-title alCenter">Одним из важнейших компонентов KeyStack является сервисный оркестратор (построен на базе CI/CD-пайплайнов), предназначенный для централизованного управления инфраструктурой</span>
+				<div class="features__column-box">
+					<div class="flashlight flashlight--blue"></div>
+					<div class="left-col">
+						<div class="flashlight flashlight--purple"></div>
+						<h3>Возможности встроенного сервисного оркестратора KeyStack:</h3>
+						<ul> 
+							<li>
+								Управление multi-site инфраструктурой - при деплое большой инсталляции (>1500 хостов) применяется схема разделения инсталляции на regions и cells, и сервисный оркестратор позволяет управлять разными регионами как единым облаком
+							</li> 
+							<li>
+								Сервисный каталог - портал с XaaS услугами в режиме самообслуживания
+							</li>
+							<li>
+								Day-2 автоматизация - автоматизация жизненного цикла сервисов после создания
+							</li>
+							<li>
+								Управление kubernetes инфраструктурой
+							</li> 
+							<li>
+								Разработка UI к Сервисному оркестратору, а также другого отмеченного маркером “2023” функционала запланированы в дорожной карте продукта
+							</li>
+                            
+						</ul>
+					</div>
+					<div class="right-col">
+
+						<img src="img/scheme.svg" alt="схема" class="spacer scheme">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages-section" id="advantages" >
+			<div class="inner">
+				<div class="advantages-contetn">
+					<h2 class="section-title">
+						Преимущества
+					</h2>
+					<span class="under-section-title">
+						Давайте расскажем, чем мы занимаемся:
+					</span>
+					<div class="advantages-grid">
+						<div class="advantage wow fadeInUp" data-wow-delay="200ms">
+							<div class="advantage__header  ">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.2"
+										d="M5.17188 11.6562C5.05866 11.8507 4.99933 12.0719 5.00001 12.2969V27.7031C5.0012 27.9257 5.06105 28.144 5.17353 28.336C5.286 28.528 5.44712 28.687 5.64063 28.7969L19.3906 36.5313C19.576 36.6372 19.7865 36.6911 20 36.6875L20.1406 20L5.17188 11.6562Z"
+										fill="#00C2FF" />
+									<path
+										d="M35 27.7033V12.2971C34.9988 12.0745 34.939 11.8562 34.8265 11.6642C34.714 11.4722 34.5529 11.3132 34.3594 11.2033L20.6094 3.46895C20.4241 3.36198 20.2139 3.30566 20 3.30566C19.7861 3.30566 19.5759 3.36198 19.3906 3.46895L5.64062 11.2033C5.44711 11.3132 5.28599 11.4722 5.17352 11.6642C5.06105 11.8562 5.0012 12.0745 5 12.2971V27.7033C5.0012 27.9259 5.06105 28.1441 5.17352 28.3362C5.28599 28.5282 5.44711 28.6872 5.64062 28.7971L19.3906 36.5314C19.5759 36.6384 19.7861 36.6947 20 36.6947C20.2139 36.6947 20.4241 36.6384 20.6094 36.5314L34.3594 28.7971C34.5529 28.6872 34.714 28.5282 34.8265 28.3362C34.939 28.1441 34.9988 27.9259 35 27.7033V27.7033Z"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M34.8281 11.6562L20.1406 20L5.17188 11.6562" stroke="#00C2FF"
+										stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M20.1406 20L20 36.6875" stroke="#00C2FF" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								<div class="advantage__caption">
+									Архитектурой и проектированием
+								</div>
+							</div>
+							<p>
+								Мы специализируемся на проектировании облачных сред высокой доступности, а наши экспеты
+								имеют многолетний опыт работы с корпоративной архитектурой облаков любого размера.
+							</p>
+						</div>
+
+						<div class="advantage wow fadeInUp" data-wow-delay="400ms">
+							<div class="advantage__header">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.2"
+										d="M33.6719 7.5H6.32812C5.59462 7.5 5 8.09462 5 8.82812V31.1719C5 31.9054 5.59462 32.5 6.32812 32.5H33.6719C34.4054 32.5 35 31.9054 35 31.1719V8.82812C35 8.09462 34.4054 7.5 33.6719 7.5Z"
+										fill="#00C2FF" />
+									<path d="M12.5 15L18.75 20L12.5 25" stroke="#00C2FF" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M21.25 25H27.5" stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M33.6719 7.5H6.32812C5.59462 7.5 5 8.09462 5 8.82812V31.1719C5 31.9054 5.59462 32.5 6.32812 32.5H33.6719C34.4054 32.5 35 31.9054 35 31.1719V8.82812C35 8.09462 34.4054 7.5 33.6719 7.5Z"
+										stroke="#00C2FF" stroke-width="2.12125" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<div class="advantage__caption">
+									Разработкой
+								</div>
+							</div>
+							<p>
+								Мы ежедневно рассматриваем новые сценарии, начиная от пользовательских порталов
+								управления и заканчивая инструментами конфигурации, которые интегрируют OpenStack с
+								вашей инфраструктурой.
+							</p>
+						</div>
+
+						<div class="advantage wow fadeInUp" data-wow-delay="600ms">
+							<div class="advantage__header">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.2"
+										d="M14.7031 28.8438C12.9219 34.1406 5.85938 34.1406 5.85938 34.1406C5.85938 34.1406 5.85938 27.0781 11.1562 25.2969L14.7031 28.8438Z"
+										fill="#00C2FF" />
+									<path opacity="0.2"
+										d="M28.8438 18.2344V28.3281C28.8391 28.6578 28.7043 28.9723 28.4688 29.2031L23.4219 34.2656C23.2618 34.4256 23.0612 34.539 22.8417 34.5939C22.6221 34.6488 22.3918 34.6431 22.1753 34.5773C21.9587 34.5115 21.7641 34.3882 21.6121 34.2205C21.4602 34.0528 21.3566 33.847 21.3125 33.625L20 27.0781L28.8438 18.2344Z"
+										fill="#00C2FF" />
+									<path opacity="0.2"
+										d="M21.766 11.1562H11.6722C11.3425 11.1609 11.028 11.2957 10.7972 11.5313L5.73475 16.5781C5.57482 16.7382 5.46135 16.9388 5.40646 17.1583C5.35158 17.3779 5.35732 17.6082 5.42308 17.8247C5.48885 18.0413 5.61217 18.2359 5.77988 18.3879C5.94759 18.5398 6.15341 18.6434 6.37537 18.6875L12.9222 20L21.766 11.1562Z"
+										fill="#00C2FF" />
+									<path
+										d="M14.7031 28.8438C12.9219 34.1406 5.85938 34.1406 5.85938 34.1406C5.85938 34.1406 5.85938 27.0781 11.1563 25.2969"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M30.6094 16.4689L20 27.0783L12.9219 20.0002L23.5313 9.39081C27.5469 5.37518 31.5625 5.42206 33.2813 5.67206C33.5465 5.70744 33.7927 5.82912 33.9819 6.01832C34.1711 6.20751 34.2927 6.45372 34.3281 6.71893C34.5781 8.43768 34.625 12.4533 30.6094 16.4689Z"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M28.8438 18.2344V28.3281C28.8391 28.6578 28.7043 28.9723 28.4687 29.2031L23.4219 34.2656C23.2618 34.4256 23.0612 34.539 22.8417 34.5939C22.6221 34.6488 22.3918 34.6431 22.1753 34.5773C21.9587 34.5115 21.7641 34.3882 21.6121 34.2205C21.4602 34.0528 21.3566 33.847 21.3125 33.625L20 27.0781"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M21.766 11.1562H11.6722C11.3425 11.1609 11.028 11.2957 10.7972 11.5313L5.73475 16.5781C5.57482 16.7382 5.46135 16.9388 5.40646 17.1583C5.35158 17.3779 5.35732 17.6082 5.42308 17.8247C5.48885 18.0413 5.61217 18.2359 5.77988 18.3879C5.94759 18.5398 6.15341 18.6434 6.37537 18.6875L12.9222 20"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<div class="advantage__caption">
+									Внедрением
+								</div>
+							</div>
+							<p>
+								Наши специалисты обладают высокими квалификациями и имеют широкий опыт развёртывания
+								облачных сред. Мы внедряем облачные технологии для частных и государственных компаний.
+							</p>
+						</div>
+
+						<div class="advantage wow fadeInUp" data-wow-delay="800ms">
+							<div class="advantage__header">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.2"
+										d="M25.6094 12.5156C26.0379 13.7138 26.2547 14.9775 26.25 16.25C26.25 19.2337 25.0647 22.0952 22.955 24.205C20.8452 26.3147 17.9837 27.5 15 27.5H14.3906C15.1663 29.6938 16.6031 31.5932 18.5032 32.9364C20.4032 34.2796 22.6731 35.0006 25 35H35.3125C35.5611 35 35.7996 34.9012 35.9754 34.7254C36.1512 34.5496 36.25 34.3111 36.25 34.0625V23.75C36.254 20.8705 35.1523 18.0994 33.1722 16.0089C31.1921 13.9183 28.4848 12.6678 25.6094 12.5156Z"
+										fill="#00C2FF" />
+									<path
+										d="M15 27.5H4.6875C4.43886 27.5 4.2004 27.4012 4.02459 27.2254C3.84877 27.0496 3.75 26.8111 3.75 26.5625V16.25C3.75 13.2663 4.93526 10.4048 7.04505 8.29505C9.15483 6.18526 12.0163 5 15 5V5C17.9837 5 20.8452 6.18526 22.955 8.29505C25.0647 10.4048 26.25 13.2663 26.25 16.25V16.25C26.25 19.2337 25.0647 22.0952 22.955 24.205C20.8452 26.3147 17.9837 27.5 15 27.5V27.5Z"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M14.3906 27.5C15.1663 29.6938 16.6031 31.5932 18.5032 32.9364C20.4032 34.2796 22.6731 35.0006 25 35H35.3125C35.5611 35 35.7996 34.9012 35.9754 34.7254C36.1512 34.5496 36.25 34.3111 36.25 34.0625V23.75C36.254 20.8705 35.1523 18.0994 33.1722 16.0089C31.1921 13.9183 28.4848 12.6678 25.6094 12.5156"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<div class="advantage__caption">
+									Поддержкой наших клиентов
+								</div>
+							</div>
+							<p>
+								Оказываем техподдержку 24/7 и для своего дистрибутива KeyStack,и для ванильного
+								OpenStack. Вне ависимости от масштабов внедрения вы всегда можете положиться на ITKey и
+								быть уверенными, что ваше облаков находится в надёжных руках!
+							</p>
+						</div>
+
+						<div class="advantage wow fadeInUp" data-wow-delay="1000ms">
+							<div class="advantage__header">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.2"
+										d="M5.625 17.3281V25.8594C5.62612 26.1249 5.7139 26.3827 5.875 26.5937C6.92187 28 11.3594 33.125 20 33.125C28.6406 33.125 33.0781 28 34.125 26.5937C34.2861 26.3827 34.3739 26.1249 34.375 25.8594V17.3281L20 25L5.625 17.3281Z"
+										fill="#00C2FF" />
+									<path d="M1.25 15L20 5L38.75 15L20 25L1.25 15Z" stroke="#00C2FF" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M29.375 37.5V20L20 15" stroke="#00C2FF" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+									<path
+										d="M34.375 17.3281V25.8594C34.3739 26.1249 34.2861 26.3827 34.125 26.5937C33.0781 28 28.6406 33.125 20 33.125C11.3594 33.125 6.92187 28 5.875 26.5937C5.7139 26.3827 5.62612 26.1249 5.625 25.8594V17.3281"
+										stroke="#00C2FF" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+
+								<div class="advantage__caption">
+									Обучением
+								</div>
+							</div>
+							<p>
+								Компания предлагает образовательные курсы по облачным технологиям (на базе OpenStack).
+								Слушатели узнают как спроектировать и внедрить свое облако, а так же что с ним делать
+								дальше. Делимся экспертизой и повышаем квалификацию специалистов!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="decor-container">
+				<div class="kulich" aria-hidden="true">
+					<div class="flashlight flashlight--blue"></div>
+					<img src="img/stack.svg" class="spacer kulich-img" alt="">
+					<img class="candy candy-1" src="img/icon-sprite.svg#kulich-img-1" alt="">
+					<img class="candy candy-2" src="img/icon-sprite.svg#kulich-img-2" alt="">
+					<img class="candy candy-3" src="img/icon-sprite.svg#kulich-img-3" alt="">
+					<img class="candy candy-4" src="img/icon-sprite.svg#kulich-img-4" alt="">
+					<img class="candy candy-5" src="img/icon-sprite.svg#kulich-img-5" alt="">
+					<img class="candy candy-6" src="img/icon-sprite.svg#kulich-img-6" alt="">
+					<img class="candy candy-7" src="img/icon-sprite.svg#kulich-img-7" alt="">
+					<img class="candy candy-8" src="img/icon-sprite.svg#kulich-img-8" alt="">
+					<img class="candy candy-9" src="img/icon-sprite.svg#kulich-img-9" alt="">
+					<img class="candy candy-10" src="img/icon-sprite.svg#kulich-img-10" alt="">
+					<img class="candy candy-11" src="img/icon-sprite.svg#kulich-img-11" alt="">
+					<img class="candy candy-photo-1" src="img/kulich-photo-1.png" alt="">
+					<img class="candy candy-photo-2" src="img/kulich-photo-2.png" alt="">
+					<img class="candy candy-photo-3" src="img/kulich-photo-3.png" alt="">
+
+				</div>
+			</div>
+		</section>
+		<section class="training-section" id="training">
+			<div class="inner">
+				<div class="left-col">
+					<div class="flashlight flashlight--green"></div>
+					<img src="img/training-img.png" class="spacer" alt="" aria-hidden="true">
+				</div>
+				<div class="right-col">
+					<h2 class="section-title" >Про обучение и поддержку</h2>
+					<span class="under-section-title">
+						Поддержкой и обучением занимаются сотрудники, которые разрабатывают продукт. Это гарантирует
+						актуальность получаемых знаний и оперативное решение возникших вопросов.
+					</span>
+					<div class="traning-info">
+						<div class="training-info__item">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.2"
+									d="M12.5 20.001C12.5 17.5287 13.2331 15.112 14.6066 13.0564C15.9801 11.0007 17.9324 9.39858 20.2165 8.45249C22.5005 7.50639 25.0139 7.25885 27.4386 7.74117C29.8634 8.22348 32.0907 9.41399 33.8388 11.1621C35.587 12.9103 36.7775 15.1376 37.2598 17.5624C37.7421 19.9871 37.4946 22.5004 36.5485 24.7845C35.6024 27.0686 34.0002 29.0208 31.9446 30.3944C29.889 31.7679 27.4723 32.501 25 32.501H11.25C8.92936 32.501 6.70376 31.5791 5.06282 29.9382C3.42187 28.2972 2.5 26.0716 2.5 23.751C2.5 21.4303 3.42187 19.2047 5.06282 17.5638C6.70376 15.9229 8.92936 15.001 11.25 15.001C11.9821 15.0007 12.7114 15.0899 13.4219 15.2666"
+									fill="#BCE000" />
+								<path
+									d="M12.5 20.001C12.5 17.5287 13.2331 15.112 14.6066 13.0564C15.9801 11.0007 17.9324 9.39858 20.2165 8.45249C22.5005 7.50639 25.0139 7.25885 27.4386 7.74117C29.8634 8.22348 32.0907 9.41399 33.8388 11.1621C35.587 12.9103 36.7775 15.1376 37.2598 17.5624C37.7421 19.9871 37.4946 22.5004 36.5485 24.7845C35.6024 27.0686 34.0002 29.0208 31.9446 30.3944C29.889 31.7679 27.4723 32.501 25 32.501H11.25C8.92936 32.501 6.70376 31.5791 5.06282 29.9382C3.42187 28.2972 2.5 26.0716 2.5 23.751C2.5 21.4303 3.42187 19.2047 5.06282 17.5638C6.70376 15.9229 8.92936 15.001 11.25 15.001C11.9821 15.0007 12.7114 15.0899 13.4219 15.2666"
+									stroke="#BCE000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M30 18.126L22.5 25.626L18.75 21.876" stroke="#BCE000" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<p>
+								Во время обучения вы узнаете, как разработать и развернуть своё собственное облако, а
+								так же овладеете необходимым функционалом для дальнейшего управления им.
+							</p>
+						</div>
+						<div class="training-info__item">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.2" d="M35 10.001L20 15.001L5 10.001L20 5.00098L35 10.001Z"
+									fill="#BCE000" />
+								<path d="M5 10.001V22.501" stroke="#BCE000" stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path
+									d="M8.46875 33.7514C9.71947 31.833 11.429 30.257 13.4426 29.1661C15.4561 28.0752 17.7099 27.5039 20 27.5039C22.2901 27.5039 24.5439 28.0752 26.5575 29.1661C28.571 30.257 30.2805 31.833 31.5313 33.7514"
+									stroke="#BCE000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M35 10.001L20 15.001L5 10.001L20 5.00098L35 10.001Z" stroke="#BCE000"
+									stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path
+									d="M26.4531 12.8447C27.5998 14.0969 28.3573 15.6556 28.6335 17.3308C28.9096 19.006 28.6925 20.7254 28.0084 22.2794C27.3243 23.8333 26.203 25.1547 24.781 26.0824C23.359 27.0101 21.6978 27.504 20 27.504C18.3022 27.504 16.641 27.0101 15.219 26.0824C13.797 25.1547 12.6757 23.8333 11.9916 22.2794C11.3076 20.7254 11.0904 19.006 11.3665 17.3308C11.6427 15.6556 12.4002 14.0969 13.5469 12.8447"
+									stroke="#BCE000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<p>
+								Наши курсы включают в себя не только учебные лаборатории и опросы по пройденным темам,
+								но и практические примеры различных сценариев и варианты их исполнения.
+							</p>  
+						</div>
+					</div>
+					<div class="training-section__btn-box">
+						<a href="" class="btn btn--bg-green btn--border-green">Обучение</a>
+						<a href="#footer" class="btn  btn--border-green anchor">Задать вопрос</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscription-section" id="subscription">
+			<div class="inner" >
+				<div class="desk-version">
+					<table class="subscription-table">
+						<thead>
+							<tr>
+								<th>
+									<span class="section-title">Подписка</span> 
+									<span class="under-section-title">
+										Подписка является коммерческой услугой, предоставляемой компанией ITKey, которая включает в себя:
+									</span>
+								</th>
+								<th>
+									<span class="glowing-text glowing-text--blue">
+										Стандартная
+										<span class="flashlight flashlight--blue"></span>
+									</span>
+									<span class="subscription-price">
+										5 000 ₽ <span class="defis">-</span> месяц
+									</span>
+								</th>
+								<th>
+									<span class="glowing-text glowing-text--green">
+										Расширенная
+										<span class="flashlight flashlight--green"></span>
+									</span>
+									<span class="subscription-price">
+										9 000 ₽ <span class="defis">-</span> месяц
+									</span>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Доступ к порталу для заказчиков</td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+							<tr>
+								<td>Доступ к обновлениям ПО</td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+							<tr>
+								<td>Доступ к обновлениям ПО (багфиксы, обновления безопасности)</td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+							<tr>
+								<td>График оказания тех. поддержки</td>
+								<td>8х5</td>
+								<td>24x7</td>
+							</tr>
+							<tr>
+								<td>График работы службы тех. поддержки с инцидентами</td>
+								<td>Рабочее время по ТК РФ</td>
+								<td>24/7/365</td>
+							</tr>
+							<tr>
+								<td>График работы с заявками, исключая заявки по инцидентам</td>
+								<td>Рабочее время по ТК РФ</td>
+								<td>24/7/365</td>
+							</tr>
+							<tr>
+								<td>Выделение персонального инженера</td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+							<tr>
+								<td>Выезд инженера на площадку заказчика в случае инцидента</td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+							<tr>
+								<td>Мониторинг работоспособности платформы</td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+							</tr>
+							<tr>
+								<td>Возможность изменения приоритетов в дорожной карте </td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+							</tr>
+							<tr>
+								<td class="no-border-bottom"><b>Время отклика на заявку в зависимости от уровня
+										инцидента:</b></td>
+								<td class="no-border-bottom"></td>
+								<td class="no-border-bottom"></td>
+							</tr>
+							<tr>
+								<td>Критический</td>
+								<td><span class="glowing-text glowing-text--red ">3 часа</span></td>
+								<td><span class="glowing-text glowing-text--green ">1 час</span></td>
+							</tr>
+							<tr>
+								<td>Высокий</td>
+								<td><span class="glowing-text glowing-text--red ">7 часов</span></td>
+								<td><span class="glowing-text glowing-text--green ">2 часа</span></td>
+							</tr>
+							<tr>
+								<td>Средний</td>
+								<td><span class="glowing-text glowing-text--red ">20 часов</span></td>
+								<td><span class="glowing-text glowing-text--green ">4 часа</span></td>
+							</tr>
+							<tr>
+								<td>Низкий</td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--green ">8 часов</span></td>
+							</tr>
+							<tr>
+								<td>Формы взаимодействия</td>
+								<td>e-mail</td>
+								<td>e-mail, телефон</td>
+							</tr>
+							<tr>
+								<td>Консультации по настройке</td>
+								<td><span class="glowing-text glowing-text--red glowing-text--simbol">–</span></td>
+								<td><span class="glowing-text glowing-text--green glowing-text--simbol">+</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="mobil-version alCenter">
+					<h2 class="section-title">Подписка</h2> 
+					<span class="under-section-title">
+						Подписка является коммерческой услугой, предоставляемой компанией ITKey, которая включает в себя:
+					</span>
+					<div class="subscription">
+						<div class="subscription__item subscription-item sticky"> 
+							<div class="left-col">
+								<span class="glowing-text glowing-text--blue">
+									Стандартная
+									<span class="flashlight flashlight--blue"></span>
+								</span>
+								<span class="subscription-price">
+									5 000 ₽ <span class="defis">-</span> месяц
+								</span>
+							</div>
+							<div class="right-col">
+								<span class="glowing-text glowing-text--green">
+									Расширенная
+									<span class="flashlight flashlight--green"></span>
+								</span>
+								<span class="subscription-price">
+									9 000 ₽ <span class="defis">-</span> месяц
+								</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Доступ к порталу для заказчиков
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Доступ к обновлениям ПО
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Доступ к обновлениям ПО (багфиксы, обновления безопасности)
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								График оказания тех. поддержки
+							</span>
+							<div class="left-col"> 
+								8х5
+							</div>
+							<div class="right-col"> 
+								24x7
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								График работы службы тех. поддержкис инцидентами
+							</span>
+							<div class="left-col"> 
+								Рабочее время <br> по ТК РФ
+							</div>
+							<div class="right-col"> 
+								24/7/365
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								График работы с заявками, исключая заявки по инцидентам
+							</span>
+							<div class="left-col"> 
+								Рабочее время <br> по ТК РФ
+							</div>
+							<div class="right-col"> 
+								24/7/365
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Мониторинг работоспособности платформы
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red glowing-text--simbol">–</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--red glowing-text--simbol">–</span>
+							</div>
+						</div> 
+					<h3 class="subscription-h3">
+						Время отклика на заявку в зависимости от уровня инцидента:
+					</h3>
+				 
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Критический
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red">3 часа</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green">1 час</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Высокий
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red">7 часов</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green">2 часа</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Средний
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red">20 часов</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green">4 часа</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Низкий
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red glowing-text--simbol">–</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green">8 часов</span>
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Формы взаимодействия
+							</span>
+							<div class="left-col"> 
+								e-mail
+							</div>
+							<div class="right-col"> 
+								e-mail, телефон
+							</div>
+						</div>
+						<div class="subscription__item subscription-item">
+							<span class="subscription-item__caption">
+								Консультации по настройке
+							</span>
+							<div class="left-col"> 
+								<span class="glowing-text glowing-text--red glowing-text--simbol">–</span>
+							</div>
+							<div class="right-col"> 
+								<span class="glowing-text glowing-text--green glowing-text--simbol">+</span>
+							</div>
+						</div>
+					</div>
+					
+				</div> 
+				<div class="panel">
+					<div class="panel__content">
+						<h3 class="panel__caption">
+							Остались вопросы?
+						</h3>
+						<p>
+							С радостью ответим! Просто оставьте контактные данные, и мы свяжемся с вами когда вам будет удобно
+						</p>
+					</div>
+					<a href="#footer" class="btn btn--bg-red btn--border-red anchor">
+						Напишите мне
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" id="footer">
+		<div class="inner">
+			<div class="left-col">
+				<h2 class="section-title">Остались вопросы?</h2>
+				<span class="under-section-title">
+					С радостью ответим! Просто оставьте контактные данные, и мы свяжемся с вами когда нам будет удобно, или сами свяжитесь с нами по почте или телефону ниже
+				</span>
+				 <div class="contacts">
+					<div class="contacts__item contacts-item">
+						<span class="contacts-item__caption">
+							Телефон
+						</span>
+						<span class="contacts-item__value">+7(495)755-60-69</span>
+					</div>
+					<div class="contacts__item contacts-item">
+						<span class="contacts-item__caption">
+							E-mail
+						</span>
+						<a href="mailto:info@keystack.com " class="contacts-item__value" rel="nofollow">info@keystack.com</a>
+					</div>
+				 </div>
+			</div>
+			<div class="right-col">
+				<form class="question-form">
+					<div class="form-col-box">
+						<div class="form-col-box__item form-col-box__item--50">
+							<label class="form-elem">
+								<input type="text" class="form-elem__input" name="name" placeholder="Ваше имя" autocomplete="off">
+								<span>Ваше имя</span>
+							</label>
+						</div>
+						<div class="form-col-box__item form-col-box__item--50">
+							<label class="form-elem">
+								<input type="email" class="form-elem__input" name="email" placeholder="E-mail" autocomplete="off">
+								<span>E-mail</span>
+							</label>
+						</div> 
+					</div> 
+					<label class="form-elem">
+						<textarea name="message" class="form-elem__textarea" placeholder="Сообщение"></textarea>
+						<span>Сообщение</span>
+					</label>
+					<div class="form-col-box form-footer">
+						<div class="form-col-box__item form-col-box__item--50">
+							<button class="btn btn--bg-red btn--border-red">Отправить</button>							
+						</div>
+						<div class="form-col-box__item form-col-box__item--50">
+							<p>
+								Нажимая на кнопку вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+							</p>
+						</div> 
+					</div>
+					
+				</form>
+				
+			</div>
+		</div>
+	</footer>
+	<!-- ++++++++++JavaScript++++++++++-->
+	<script  src="js/script.js?ver1"></script>
+	<!-- <script  src="/js/script.min.js"></script> -->
+	<!-- ++++++++++JavaScript end++++++++++-->
+</body>
+
+</html>
+<!-- <video controls="controls">
+	<source src="/upload/resource/video/np-cmi.mp4">
+</video> -->

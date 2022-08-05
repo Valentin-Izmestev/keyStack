@@ -1,0 +1,115 @@
+.hall-section{
+    position: relative;
+    padding-top: 136px;   
+    .subscription-service{
+        margin-top: 5.5rem;
+    }
+    .hall-box{
+        margin-top: 88px;
+        display: flex;
+        .btn:not(:last-child){
+             margin-right: 20px; 
+        }
+        .btn-presentation{
+            svg{
+                margin-right: 16px;
+            }
+        }
+    }
+    .flashlight{
+        width: 1px;
+        height: 1px;
+        
+    }
+    .flashlight--red{
+        top: 35%;
+        left: 20%; 
+    }
+    .flashlight--blue{
+        bottom: 29%;
+        left: 59%;   
+    }
+    .stack-decor{
+        top: 1%;
+        left: 59.0%;
+        max-width: 803px;
+        max-height: 906px;
+        height: 100%;
+        width: 47%;
+        height: 100%;
+    }
+    
+}
+
+.hall__content{
+    max-width: 1020px;
+    width: 90%;
+}
+
+.subscription-service{ 
+    display: flex;
+    flex: 0 0 0;
+
+    .subscription-service__item{ 
+        width: 100%;
+        // width: 82px;
+        // height: 110px;
+        padding-top: 5rem;
+        background-size: 82px 97%; 
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        font-size: 1.5rem;
+        line-height: 1.38;
+        font-weight: 500;
+        box-sizing: border-box; 
+        &:not(:last-child){
+            margin-right: 7rem; 
+        }
+        &--one{ 
+            background-image: url(../img/icon-sprite.svg#1);
+            max-width: 275px;
+            background-position: -18px 0;
+        }
+        &--two{ 
+            background-image: url(../img/icon-sprite.svg#2);
+            max-width: 285px;
+        }
+        &--three{ 
+            background-image: url(../img/icon-sprite.svg#3);
+            max-width: 265px;
+        }
+    }
+} 
+.technology-line{
+    position: relative;
+    margin-top: 15rem;
+    width: 100%;
+    overflow: hidden;
+}
+.technology-line{
+    display: flex;
+
+    .technology-line__item{
+        display: flex; 
+        animation-name: run;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        img{
+            display: block;
+            max-width: 216px;
+            height: auto; 
+            margin: 0 1rem; 
+        } 
+    }
+}
+
+@keyframes run{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+ 

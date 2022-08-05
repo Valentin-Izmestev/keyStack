@@ -1,0 +1,176 @@
+.btn{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 2.8rem;
+    box-sizing: border-box;
+    min-height: 56px; 
+    background-color: transparent; 
+    border: 1px solid var(--light-gray);
+    text-transform: lowercase; 
+    line-height: 1.1; 
+    font-weight: 800;
+    color: var(--text-color);
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(1);
+    transform-origin: center cenetr;
+    transition: all 100ms ease;
+
+    &.btn--border-red{
+        border: 1px solid var(--red);
+    }
+    &.btn--bg-red{ 
+        background-color: var(--red);
+    }
+    &.btn--border-green { 
+        border: 1px solid var(--green);
+    }
+    &.btn--bg-green{ 
+        background-color: var(--green);
+        color: var(--bg-color);
+    }
+
+    &:hover{
+        text-decoration: none;
+    }
+    &:active{
+        transform: scale(0.97);
+    }
+
+}
+
+.page-title{
+    font-size: 6rem;
+    line-height: 1.25;
+    margin-bottom: 3.5rem;
+    font-weight: 900;
+}
+.under-page-title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1.3; 
+    max-width: 670px;
+}
+.section-title{
+    font-size: 4rem;
+    line-height: 1.25;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+.under-section-title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1.4; 
+}
+b{
+    font-weight: 700;
+}
+.flashlight{
+    position: absolute;
+    display: block;
+    &--collimator{
+        // используется только для выставлеия фонариков. 
+        filter: none !important;
+        width: 3px !important;
+        height: 3px !important;
+        background-color: red !important;
+    }
+    &--red{ 
+        background-color: var(--red); 
+        box-shadow: 0 0 329px 186px var(--red);
+        filter: blur(143px);
+        opacity: 0.3;
+    }
+    &--blue{ 
+        background-color: var(--blue); 
+        box-shadow: 0 0 329px 186px var(--blue);
+        filter: blur(143px);
+        opacity: 0.3;
+    }
+    &--purple{ 
+        background-color: #fb2583; 
+        box-shadow: 0 0 329px 186px #fb2583;
+        filter: blur(143px);
+        opacity: 0.3;
+    }
+    &--green{  
+        background-color: #bce000;
+        -webkit-box-shadow: 0 0 329px 186px #bce000;
+        box-shadow: 0 0 290px 211px #bce000; 
+        filter: blur(106px);
+        opacity: 0.4;
+    }
+}
+.decor-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.stack-decor{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    aspect-ratio: 100/153;
+    background-image: url(../img/stack.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+main{
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        li{
+            position: relative;
+            box-sizing: border-box;
+            padding-left: 30px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            &:after{
+                content: '';
+                position: absolute;
+                top: 11px;
+                left: 0;
+                width: 20px;
+                height: 2px;
+                background-color: var(--red);
+            }
+        }
+    }
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 36px 4%;
+    background-color: rgba(52, 54, 66, 0.6);
+    
+    .panel__content{ 
+        max-width: 900px;
+        flex-grow: 1;
+        margin-right: 15%;
+    }
+    p{
+        font-size: 18px;
+        line-height: 1.38;
+        color: #C8C8D2;
+    }
+    .panel__caption{
+        font-size: 30px;
+        line-height: 1.33;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .btn{
+        margin-left: auto;
+        min-width: 168px;
+    }
+}
